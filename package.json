@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "next_portfolio",
   "version": "0.1.0",
@@ -10,10 +11,11 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "next": "13.5.6",
+    "next": "^13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "react-type-animation": "^3.2.0"
+    "react-type-animation": "^3.2.0",
+    "resend": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",
@@ -23,3 +25,31 @@
     "tailwindcss": "^3"
   }
 }
+=======
+{
+  "name": "next_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "next": "^13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-type-animation": "^3.2.0",
+    "resend": "^1.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
+>>>>>>> 378cc9e485104b3e6d2f04a9c94101fadd100d80
