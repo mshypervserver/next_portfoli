@@ -1,11 +1,12 @@
 "use client"
-import React from 'react'
+import React, {useRef} from 'react'
 import Image from 'next/image'
 import logo from '../icons/logo.svg'
 import { TypeAnimation } from 'react-type-animation';
 
 
 export const HeroSection = () => {
+
   return (
     <section className="lg:py-13 lg:mb-20" >
         <div className='grid grid-cols-1 sm:grid-cols-12'>
@@ -29,16 +30,16 @@ export const HeroSection = () => {
 
                         ]}
                         wrapper="span"
-                        speed={2}
+                        speed={13}
                         //   style={{ fontSize: '40px', display: 'inline-block' }}
                         repeat={Infinity}
                         position="absolute"
                         />
                 </h1>
-                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-justify'>
                 Your One-Stop place for Power Apps, Power Automate, SQL, and SSIS Automation. <br/>
 
-We help you automate your business processes and streamline your workflow, so you can focus on what's important
+We help you automate your business processes, create Power Apps and streamline your workflow, so you can focus on what's important
                 </p>
                 <div>
                     <button 
@@ -46,10 +47,10 @@ We help you automate your business processes and streamline your workflow, so yo
                         {/* bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 */}
                         CONTACT US
                     </button>
-                    <button 
+                    {/* <button 
                     className='px-6 py-3 w-full rounded-full bg- sm:w-fit mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>
                        <span className='block bg-[#121212] hover:gb-slate-800 rounded-full px-5'></span> What we do
-                    </button>
+                    </button> */}
                 </div>
             </div>
             <div className='col-span-5'>
