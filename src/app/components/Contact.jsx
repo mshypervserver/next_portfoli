@@ -11,6 +11,7 @@ const Contact = () => {
                 {" "}
                 Schedule time with the <bold className="text-xl font-bold text-transparent ml-0 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">X.AI</bold> team to: <br/>
  <br/>
+ 
             </p>
             <ul className='list-disc pl-4 text-[#ADB7BE] text-left '>
                     <li>Discuss your project</li>
