@@ -16,8 +16,8 @@ const navLinks = [
     },
     {
       title: "Contact",
-      path: "#contact",
-    },
+      path: "/contactform",
+    }
 
   ];
  const Navbar = (props) => {

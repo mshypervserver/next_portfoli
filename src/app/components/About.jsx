@@ -73,7 +73,7 @@ const About=()=> {
             <h2 className='text-4xl font-bold ml-0 mb-4 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
                     About Us
             </h2>
-            <p className='text-base lg:text-lg'>At <bold className="bg-gradient-to-r from-purple-400 to-pink-600">X.AI</bold>, we specialize in helping businesses automate their business processes and streamline their workflow using Power Apps, Power Automate, SQL, and SSIS automation. We offer a wide range of services, including:
+            <p className='text-base lg:text-lg justify text-justify'>At <bold className="bg-gradient-to-r from-purple-400 to-pink-600">X.AI</bold>, we specialize in helping businesses automate their business processes and streamline their workflow using Power Apps, Power Automate, SQL, and SSIS automation. We offer a wide range of services, including:
                 Power Apps app development
                 Power Automate workflow creation
                 SQL and SSIS automation
