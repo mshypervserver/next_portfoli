@@ -19,6 +19,7 @@ const navLinks = [
       path: "/contactform",
     }
 
+    
   ];
  const Navbar = (props) => {
   const [navbarOpen, setNavbarOpen] = useState(true);
